@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+// margin & padding
+@for $i from 10 through 60{
+  .mt-#{$i} {
+    margin-top: 1px * $i;
+  }
+}
+
+@for $i from 10 through 60{
+  .pt-#{$i} {
+    padding-top: 1px * $i;
+  }
+}
+// margin & padding

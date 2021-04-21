@@ -1,0 +1,12 @@
+nav{
+  @include flex-bet;
+  align-items: center;
+  .navigation{
+    display: flex;
+    a{
+      padding-right: 50px;
+      color: $silver;
+      font-family: $family_worksans;
+    }
+  }
+}

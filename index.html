@@ -5,19 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Restaurant</title>
+  <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="./assets/css/master.css">
 </head>
 <body>
   <div id="root">
+    <header>
+      <div class="container navtop pt-40">
+        <nav>
+          <!-- logo -->
+          <div class="logo">
+            <img src="./assets/img/logo-restaurant.png" alt="logo">
+          </div>
 
+          <!-- link navbar -->
+          <ul class="navigation">
+            <li v-for="nav in navbar">
+              <a href="#">{{ nav.name }}</a>
+            </li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+          </ul>
+        </nav>
 
+      </div>
+      <img class="back-head" src="./assets/img/slider52x.jpg" alt="">
+    </header>
 
+    <main>
 
+    </main>
 
+    <footer>
+
+    </footer>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="./assets/js/dati.js" charset="utf-8"></script>
   <script src="./assets/js/main.js" charset="utf-8"></script>
 </body>
 </html>
