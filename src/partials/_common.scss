@@ -30,3 +30,12 @@ a{
   }
 }
 // margin & padding
+
+button.b-black{
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: $white;
+  background-color: $black;
+  border: 1px solid $white;
+  font-family: $family_worksans;
+}

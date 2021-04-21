@@ -425,6 +425,15 @@ a {
   padding-top: 60px;
 }
 
+button.b-black {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #030303;
+  border: 1px solid #ffffff;
+  font-family: "Work Sans";
+}
+
 header {
   background-color: black;
   height: 100vh;
@@ -449,7 +458,11 @@ nav .navigation {
   display: flex;
 }
 nav .navigation a {
-  padding-right: 50px;
+  padding-right: 40px;
   color: #bcbcbc;
   font-family: "Work Sans";
+}
+
+h2 {
+  color: #fff;
 }

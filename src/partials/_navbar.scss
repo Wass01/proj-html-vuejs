@@ -4,9 +4,12 @@ nav{
   .navigation{
     display: flex;
     a{
-      padding-right: 50px;
+      padding-right: 40px;
       color: $silver;
       font-family: $family_worksans;
     }
   }
+}
+h2{
+  color: #fff;
 }
