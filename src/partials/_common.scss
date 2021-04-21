@@ -38,4 +38,8 @@ button.b-black{
   background-color: $black;
   border: 1px solid $white;
   font-family: $family_worksans;
+  &:hover{
+    color: $black;
+    background-color: $white;
+  }
 }
