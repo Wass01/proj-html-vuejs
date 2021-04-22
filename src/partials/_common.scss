@@ -18,13 +18,13 @@ a{
 }
 
 // margin & padding
-@for $i from 10 through 60{
+@for $i from 10 through 100{
   .mt-#{$i} {
     margin-top: 1px * $i;
   }
 }
 
-@for $i from 10 through 60{
+@for $i from 10 through 100{
   .pt-#{$i} {
     padding-top: 1px * $i;
   }
@@ -42,4 +42,16 @@ button.b-black{
     color: $black;
     background-color: $white;
   }
+}
+
+p{
+  font-family: $family_worksans;
+}
+
+h1{
+  font-family: $family_bebas;
+}
+
+.pos-rel{
+  position: relative; 
 }

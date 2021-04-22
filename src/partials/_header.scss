@@ -25,23 +25,23 @@ header{
     margin-top: 5px;
   }
   .head-info{
-    margin-left: 30px;
+    margin-left: 20px;
     p:first-of-type{
-      font-size: 14px;
-      font-family: $family_worksans;
+      font-size: $font_14;
+      line-height: 1;
     }
     p{
-      font-size: 19px;
-      font-family: $family_worksans;
+      font-size: $font_19;
       color: $silver;
       width: 70%;
+      line-height: 1.6;
     }
     h1{
       text-transform: uppercase;
-      font-family: $family_bebas;
       font-size: 95px;
       color: $white;
       margin: 40px 0;
+      letter-spacing: 3px;
     }
   }
 }
