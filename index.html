@@ -7,6 +7,7 @@
   <title>Restaurant</title>
   <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="./assets/css/master.css">
 </head>
@@ -97,6 +98,46 @@
             </p>
             <button class="b-black mt-50" type="button" name="button">explore the menu</button>
           </div>
+        </div>
+      </div>
+
+      <!-- critics -->
+      <h1 id="critics"><i>What critics are saying about us</i></h1>
+      <div class="section-critics container">
+        <div class="card-critics">
+          <img src="./assets/img/blog72x.jpg" alt="">
+        </div>
+        <div class="card-critics">
+          <h4>meggie stewart</h4>
+          <h1>new york times</h1>
+          <i v-for="star in 5" class="fas fa-star"></i>
+          <p>
+            Non arcu mauris tortor ultrices mollis tellus euismod fermentum.
+            Habitant amet tincidunt id sapien accumsan sed at.
+            Mmalesuada ullamcorper amet.
+            Pretium pretium dignissim nisi
+          </p>
+          <button class="b-black" type="button" name="button">read full article</button>
+        </div>
+        <div class="card-critics">
+          <h4>mary maxey</h4>
+          <h1>the guardian</h1>
+          <i v-for="star in 5" class="fas fa-star"></i>
+          <p>
+            Non arcu mauris tortor ultrices mollis tellus euismod fermentum.
+            Habitant amet tincidunt id sapien accumsan sed.
+          </p>
+          <button class="b-black" type="button" name="button">read full article</button>
+        </div>
+        <div class="card-critics">
+          <h4>patrick monroe</h4>
+          <h1>globe and mail</h1>
+          <i v-for="star in 5" class="fas fa-star"></i>
+          <p>
+            Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+            Nulla porttitor accumsan tincidunt.
+          </p>
+          <button class="b-black" type="button" name="button">read full article</button>
         </div>
       </div>
     </main>

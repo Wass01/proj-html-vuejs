@@ -757,6 +757,7 @@ button.b-black {
 button.b-black:hover {
   color: #030303;
   background-color: #ffffff;
+  cursor: pointer;
 }
 
 button.b-white {
@@ -770,6 +771,7 @@ button.b-white {
 }
 button.b-white:hover {
   border: 1px solid #030303;
+  cursor: pointer;
 }
 
 p {
@@ -959,4 +961,23 @@ nav .navigation a:hover {
   color: #ffffff;
   margin: 40px 0;
   letter-spacing: 3px;
+}
+
+.section-critics {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.section-critics .card-critics {
+  width: 50%;
+}
+.section-critics .card-critics img {
+  width: 100%;
+}
+
+h1#critics {
+  font-family: "Lora";
+  text-align: center;
+  font-size: 46px;
+  letter-spacing: 3px;
+  margin-top: 100px;
 }
