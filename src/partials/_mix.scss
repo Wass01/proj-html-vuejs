@@ -1,4 +1,9 @@
 @mixin flex-bet{
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
+}
+
+@mixin flex-align{
+  display: flex;
+  align-items: center;
 }

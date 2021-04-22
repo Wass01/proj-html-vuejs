@@ -752,10 +752,24 @@ button.b-black {
   background-color: #030303;
   border: 1px solid #ffffff;
   font-family: "Work Sans";
+  font-size: 14px;
 }
 button.b-black:hover {
   color: #030303;
   background-color: #ffffff;
+}
+
+button.b-white {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  color: #030303;
+  border: 1px solid #bcbcbc;
+  font-family: "Work Sans";
+  font-size: 14px;
+}
+button.b-white:hover {
+  border: 1px solid #030303;
 }
 
 p {
@@ -863,8 +877,13 @@ nav .navigation a:hover {
   height: 800px;
 }
 .first-section #california img {
-  width: 550px;
+  width: 600px;
   height: 800px;
+  transition: transform 0.2s;
+}
+.first-section #california img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 .first-section #california h4 {
   font-size: 14px;
@@ -874,4 +893,70 @@ nav .navigation a:hover {
   bottom: 20px;
   left: 200px;
   color: #ffffff;
+}
+
+.type {
+  display: flex;
+  padding-top: 7%;
+}
+.type .listType {
+  width: calc(100%/3);
+  text-align: center;
+  padding: 8% 2%;
+}
+.type .listType h3 {
+  font-size: 31px;
+  font-family: "Bebas Neue";
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+.type .listType div {
+  border-bottom: 1px solid #030303;
+  width: 25%;
+  margin: 10% 37%;
+}
+.type .listType p {
+  font-size: 17px;
+  color: #030303;
+  line-height: 1.6;
+  margin-bottom: 2em;
+}
+
+.second-main {
+  height: 850px;
+  background-color: #030303;
+  display: flex;
+  align-items: center;
+}
+.second-main img {
+  height: 850px;
+  width: 60%;
+}
+.second-main .second-container .second-empty {
+  width: 8%;
+  border-bottom: 1px solid #ffffff;
+  margin-left: 50px;
+  position: relative;
+  top: 6px;
+}
+.second-main .second-container .second-info {
+  padding-left: 25%;
+  width: 90%;
+}
+.second-main .second-container .second-info p:first-of-type {
+  font-size: 14px;
+  line-height: 1;
+}
+.second-main .second-container .second-info p {
+  font-size: 19px;
+  color: #bcbcbc;
+  width: 70%;
+  line-height: 1.6;
+}
+.second-main .second-container .second-info h1 {
+  text-transform: uppercase;
+  font-size: 70px;
+  color: #ffffff;
+  margin: 40px 0;
+  letter-spacing: 3px;
 }

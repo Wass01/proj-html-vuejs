@@ -47,31 +47,58 @@
 
     <main>
       <!-- first main -->
-      <div class="container first-section">
-
-        <div class="food-universal">
-          <p>
-            <strong>HAC TELLUS, FELIS RISUS AT</strong> mattis mattis.
-            Eget euismod semper eget tortor, donec amet, blandit.
-            Tristique facilisi faucibus elementum feugiat in nam in feugiat.
-            Ipsum odio etiam duis facilisis amet vulputate.
-          </p>
-          <h1>
-            food is our common ground, a universal experience.
-          </h1>
-          <p>
-            Tristique tempus condimentum diam donec.
-            Condimentum ullamcorper sit elementum hendrerit mi nulla in consequat, ut.
-            Metus, nullam scelerisque netus viverra dui.
-          </p>
-          <img src="./assets/img/signature.jpg" alt="firma">
+      <div class="container">
+        <div class=" first-section">
+          <div class="food-universal">
+            <p>
+              <strong>HAC TELLUS, FELIS RISUS AT</strong> mattis mattis.
+              Eget euismod semper eget tortor, donec amet, blandit.
+              Tristique facilisi faucibus elementum feugiat in nam in feugiat.
+              Ipsum odio etiam duis facilisis amet vulputate.
+            </p>
+            <h1>
+              food is our common ground, a universal experience.
+            </h1>
+            <p>
+              Tristique tempus condimentum diam donec.
+              Condimentum ullamcorper sit elementum hendrerit mi nulla in consequat, ut.
+              Metus, nullam scelerisque netus viverra dui.
+            </p>
+            <img src="./assets/img/signature.jpg" alt="firma">
+          </div>
+          <div id="california">
+            <img src="./assets/img/info22x.jpg" alt="california">
+            <h4>california rolls - $22</h4>
+          </div>
         </div>
-        <div id="california">
-          <img src="./assets/img/info22x.jpg" alt="california">
-          <h4>california rolls - $22</h4>
+
+        <div class="type">
+          <div class="listType" v-for="type in typesSushi">
+            <img :src="'./assets/img/sushi' + type.number + '.png'" alt="">
+            <h3>{{ type.title }}</h3>
+            <div></div>
+            <p>{{ type.descrition }}</p>
+            <button class="b-white" type="button" name="button">{{ type.button }}</button>
+          </div>
         </div>
       </div>
 
+      <!-- second main -->
+      <div class="second-main pos-rel">
+        <img src="./assets/img/slider32x.jpg" alt="">
+        <div class="second-container">
+          <div class="second-empty">
+          </div>
+          <div class="second-info">
+            <p>FINE DINING EXPERIENCE</p>
+            <h1>the best table in town</h1>
+            <p>
+              Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla.
+            </p>
+            <button class="b-black mt-50" type="button" name="button">explore the menu</button>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>

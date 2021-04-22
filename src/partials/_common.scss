@@ -38,9 +38,23 @@ button.b-black{
   background-color: $black;
   border: 1px solid $white;
   font-family: $family_worksans;
+  font-size: $font_14;
   &:hover{
     color: $black;
     background-color: $white;
+  }
+}
+
+button.b-white{
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: $white;
+  color: $black;
+  border: 1px solid $silver;
+  font-family: $family_worksans;
+  font-size: $font_14;
+  &:hover{
+    border: 1px solid $black;
   }
 }
 
@@ -53,5 +67,5 @@ h1{
 }
 
 .pos-rel{
-  position: relative; 
+  position: relative;
 }
