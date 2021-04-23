@@ -963,37 +963,85 @@ nav .navigation a:hover {
   letter-spacing: 3px;
 }
 
-.section-critics .critic-on {
+.critic-on {
   display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-.section-critics .critic-on i {
-  color: #ffffff;
-}
-.section-critics .critic-on .back-black {
+.critic-on .back-black {
   background-color: #030303;
-  padding: 7%;
+  padding: 10%;
+  transition: transform 0.2s;
 }
-.section-critics .critic-on .back-black h4 {
-  text-transform: uppercase;
-  color: #bcbcbc;
+.critic-on .back-black:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
-.section-critics .critic-on .back-black h1 {
-  text-transform: uppercase;
-  color: #ffffff;
-}
-.section-critics .critic-on .card-critics {
+
+.card-critics {
   width: 50%;
   height: 800px;
 }
-.section-critics .critic-on .card-critics img {
+.card-critics i {
+  color: #ffffff;
+  padding-right: 10px;
+  margin: 40px 0;
+}
+.card-critics .line {
+  border-bottom: 1px solid #ffffff;
+  width: 20%;
+  margin-bottom: 40px;
+}
+.card-critics h4 {
+  text-transform: uppercase;
+  color: #bcbcbc;
+  font-family: "Work Sans";
+  font-size: 16px;
+}
+.card-critics h1 {
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 56px;
+  margin-top: 35px;
+}
+.card-critics p {
+  color: #ffffff;
+  font-size: 19px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+.card-critics img {
   width: 100%;
   height: 800px;
 }
-.section-critics .critic-under {
+
+.critic-under {
   display: flex;
 }
-.section-critics .critic-under .card-critics {
-  width: 50%;
+.critic-under > * {
+  margin: 0 15px;
+}
+.critic-under .back-image1 {
+  padding: 10%;
+  background-image: url("../../assets/img/info52x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+.critic-under .back-image2 {
+  padding: 10%;
+  background-image: url("../../assets/img/info12x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+.critic-under button {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.critic-under button:hover {
+  background-color: #030303;
+  color: #ffffff;
 }
 
 h1#critics {
