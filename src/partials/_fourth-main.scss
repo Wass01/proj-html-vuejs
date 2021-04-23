@@ -1,0 +1,42 @@
+.fourth-main{
+  height: 850px;
+  background-color: $primary;
+  @include flex-align;
+  img{
+    height: 850px;
+    width: 60%;
+  }
+  .fourth-container{
+    .fourth-empty{
+      width: 8%;
+      border-bottom: 1px solid $white;
+      margin-left: 50px;
+      position: relative;
+      top: 6px;
+    }
+    .fourth-info{
+      padding-left: 25%;
+      width: 90%;
+      p:first-of-type{
+        font-size: $font_14;
+        line-height: 1;
+      }
+      p{
+        font-size: $font_19;
+        color: $silver;
+        width: 70%;
+        line-height: 1.6;
+      }
+      h1{
+        text-transform: uppercase;
+        font-size: 70px;
+        color: $white;
+        margin: 40px 0;
+        letter-spacing: 3px;
+      }
+      i{
+        margin-right: 10px;
+      }
+    }
+  }
+}

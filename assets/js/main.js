@@ -4,6 +4,9 @@ let app = new Vue({
     navbar: navbar,
     typesSushi: typesSushi,
     promotions: promotions,
+    antipasti: antipasti,
+    principalPlate: principalPlate,
+    desserts: desserts,
   },
 
   methods: {

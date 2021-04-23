@@ -70,3 +70,72 @@ const promotions = [
     number: '82x',
   }
 ];
+
+const antipasti = [
+  {
+    name: 'ahi salmon nigiri',
+    price: '$48',
+    descrition: 'Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacinia.',
+  },
+  {
+    name: 'umi masu salad',
+    price: '$21',
+    descrition: 'Mollis ornare sit sapien, sodales. Cursus duis proin semper quisque.',
+  },
+  {
+    name: 'temaki with crab',
+    price: '$32',
+    descrition: 'Ac vel, risus ornare senectus placerat duis amet dictumst tellus.',
+  },
+  {
+    name: 'california rolls',
+    price: '$22',
+    descrition: 'Ac vel, risus ornare senectus placerat duis amet dictumst tellus.',
+  }
+];
+
+const principalPlate = [
+  {
+    name: 'braised abalone',
+    price: '$52',
+    descrition: 'Mollis ornare sit sapien, sodales. Cursus duis proin semper quisque.',
+  },
+  {
+    name: 'twice cooked pork',
+    price: '$21',
+    descrition: 'Ac vel, risus ornare senectus placerat duis amet dictumst tellus.',
+  },
+  {
+    name: 'kung pao chicken',
+    price: '$32',
+    descrition: 'Quis duis sit dictum aliquam a velit enim. Tellus in sit augue aliquam.',
+  },
+  {
+    name: 'char siu & sushis',
+    price: '$48',
+    descrition: 'Feugiat rhoncus ipsum tristique purus diam, et dolor molestie.',
+  }
+];
+
+const desserts = [
+  {
+    name: 'chocolate ball cake',
+    price: '$13',
+    descrition: 'In pellentesque in felis massa vehicula. In sed euismod ut.',
+  },
+  {
+    name: 'lime pie with crust',
+    price: '$14',
+    descrition: 'Mollis ornare sit sapien, sodales. Cursus duis proin semper quisque.',
+  },
+  {
+    name: 'rasberry pear cake',
+    price: '$18',
+    descrition: 'Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit.',
+  },
+  {
+    name: 'café au lait',
+    price: '$6',
+    descrition: 'Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit.',
+  }
+];

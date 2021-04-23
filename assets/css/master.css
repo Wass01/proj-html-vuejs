@@ -1145,3 +1145,45 @@ h1.italic {
   color: #ffffff;
   font-size: 19px;
 }
+
+.fourth-main {
+  height: 850px;
+  background-color: #5c3d27;
+  display: flex;
+  align-items: center;
+}
+.fourth-main img {
+  height: 850px;
+  width: 60%;
+}
+.fourth-main .fourth-container .fourth-empty {
+  width: 8%;
+  border-bottom: 1px solid #ffffff;
+  margin-left: 50px;
+  position: relative;
+  top: 6px;
+}
+.fourth-main .fourth-container .fourth-info {
+  padding-left: 25%;
+  width: 90%;
+}
+.fourth-main .fourth-container .fourth-info p:first-of-type {
+  font-size: 14px;
+  line-height: 1;
+}
+.fourth-main .fourth-container .fourth-info p {
+  font-size: 19px;
+  color: #bcbcbc;
+  width: 70%;
+  line-height: 1.6;
+}
+.fourth-main .fourth-container .fourth-info h1 {
+  text-transform: uppercase;
+  font-size: 70px;
+  color: #ffffff;
+  margin: 40px 0;
+  letter-spacing: 3px;
+}
+.fourth-main .fourth-container .fourth-info i {
+  margin-right: 10px;
+}
