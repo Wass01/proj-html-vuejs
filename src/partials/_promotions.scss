@@ -1,0 +1,49 @@
+.promo-section{
+  display: flex;
+  .promotions{
+    width: calc(100%/3);
+    .name-price{
+      @include flex-bet;
+      align-items: center;
+      margin-bottom: 15px;
+      h2{
+        text-transform: uppercase;
+        font-family: $family_bebas;
+        font-size: 30px;
+        letter-spacing: 1px;
+        p{
+          font-size: $font_16;
+          font-family: $family_worksans;
+        }
+      }
+    }
+    h1{
+      font-size: 45px;
+      letter-spacing: 2px;
+      margin-bottom: 45px;
+    }
+    .promotion-for > p{
+      font-size: $font_19;
+      font-family: $family_worksans;
+      margin-bottom: 25px;
+    }
+  }
+  .promotions:nth-child(odd){
+    margin-top: 120px;
+    background-color: $grey;
+    padding: 5%;
+    color: $primary;
+  }
+  .promotions:nth-child(3){
+    height: 760px;
+  }
+  .promotions:nth-child(2){
+    margin-top: 70px;
+    padding: 5%;
+    height: 780px;
+    background-image: url('../../assets/img/misc22x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+  }
+}

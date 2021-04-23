@@ -196,6 +196,40 @@
           </div>
         </div>
       </div>
+
+      <!-- promotions -->
+      <div class="container promo-section pb-50">
+        <div class="promotions">
+          <h1>hors d'oeuvres</h1>
+          <div class="promotion-for" v-for="pasto in antipasti">
+            <div class="name-price">
+              <h2>{{ pasto.name }}</h2>
+              <p>{{ pasto.price }}</p>
+            </div>
+            <p>{{ pasto.descrition}}</p>
+          </div>
+        </div>
+        <div class="promotions">
+          <h1>main course</h1>
+          <div class="promotion-for" v-for="plate in principalPlate">
+            <div class="name-price">
+              <h2>{{ plate.name }}</h2>
+              <p>{{ plate.price }}</p>
+            </div>
+            <p>{{ plate.descrition}}</p>
+          </div>
+        </div>
+        <div class="promotions">
+          <h1>desserts</h1>
+          <div class="promotion-for" v-for="dessert in desserts">
+            <div class="name-price">
+              <h2>{{ dessert.name }}</h2>
+              <p>{{ dessert.price }}</p>
+            </div>
+            <p>{{ dessert.descrition}}</p>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>

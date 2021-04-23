@@ -25,6 +25,12 @@ a{
 }
 
 @for $i from 10 through 100{
+  .pb-#{$i} {
+    padding-bottom: 1px * $i;
+  }
+}
+
+@for $i from 10 through 100{
   .pt-#{$i} {
     padding-top: 1px * $i;
   }
