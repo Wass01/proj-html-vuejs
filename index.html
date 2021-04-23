@@ -249,7 +249,28 @@
     </main>
 
     <footer>
+      <div class="back-foot text-center">
+        <div class="logo-foot">
+          <img src="./assets/img/logo-restaurant.png" alt="logo">
+        </div>
+        <p>
+          Quam eu proin sit massa condimentum.
+          Volutpat non pulvinar aliquet nunc.
+          Quam eu proin sit massa condimentum.
+        </p>
+        <div class="link-social" v-for="social in socials">
+          <a :href="social.link">
+            <i :class="`fab fa-${social.name}`"></i>
+          </a>
+        </div>
+      </div>
 
+      <div class="copyright">
+        <p>
+          <i class="far fa-copyright"></i>
+          Copyright 2012 - 2021 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress
+        </p>
+      </div>
     </footer>
   </div>
 

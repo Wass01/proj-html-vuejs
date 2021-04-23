@@ -7,6 +7,7 @@ let app = new Vue({
     antipasti: antipasti,
     principalPlate: principalPlate,
     desserts: desserts,
+    socials: socials,
   },
 
   methods: {

@@ -1150,6 +1150,10 @@ h1 {
   position: relative;
 }
 
+.text-center {
+  text-align: center;
+}
+
 header {
   background-color: #5c3d27;
   height: 850px;
@@ -1639,4 +1643,43 @@ h1.italic {
   margin-top: 30px;
   line-height: 1.6;
   margin: 30px 0;
+}
+
+.back-foot {
+  background-image: url("../../assets/img/footer2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 580px;
+  width: 100%;
+  padding: 15% 30%;
+}
+.back-foot p {
+  color: #ffffff;
+  font-size: 19px;
+  line-height: 1.6;
+  margin-top: 30px;
+}
+.back-foot .link-social {
+  display: inline-block;
+  margin-top: 60px;
+  padding: 0 5px;
+}
+.back-foot .link-social i {
+  color: #5c3d27;
+  border-radius: 50%;
+  background-color: #ffffff;
+  font-size: 16px;
+  padding: 15px 15px;
+}
+
+.copyright {
+  height: 80px;
+  background-color: #5c3d27;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright p {
+  font-size: 12px;
+  color: #bcbcbc;
 }

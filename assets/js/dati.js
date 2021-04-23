@@ -139,3 +139,26 @@ const desserts = [
     descrition: 'Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit.',
   }
 ];
+
+const socials = [
+  {
+    name: 'facebook-f',
+    link: 'https://www.facebook.com/ThemeFusionAvada/',
+  },
+  {
+    name: 'twitter',
+    link: 'https://twitter.com/Theme_Fusion',
+  },
+  {
+    name: 'instagram',
+    link: 'https://www.instagram.com/themefusion/?hl=en',
+  },
+  {
+    name: 'linkedin-in',
+    link: 'https://www.linkedin.com/company/themefusion',
+  },
+  {
+    name: 'youtube',
+    link: 'https://www.youtube.com/channel/UC_C7uAOAH9RMzZs-CKCZ62w',
+  },
+];
