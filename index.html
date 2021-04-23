@@ -39,7 +39,7 @@
               Pellentesque vitae viverra risus, sagittis.
               Venenatis ridiculus scelerisque nisi in urna nulla. Sit tempor a et nisl, ac felis.
             </p>
-            <button class="b-black mt-50" type="button" name="button">explore the menu</button>
+            <button class="b-primary mt-50" type="button" name="button">explore the menu</button>
           </div>
         </div>
       </div>
@@ -96,19 +96,19 @@
             <p>
               Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla.
             </p>
-            <button class="b-black mt-50" type="button" name="button">explore the menu</button>
+            <button class="b-primary mt-50" type="button" name="button">explore the menu</button>
           </div>
         </div>
       </div>
 
       <!-- critics -->
-      <h1 id="critics"><i>What critics are saying about us</i></h1>
+      <h1 class="italic"><i>What critics are saying about us</i></h1>
       <div class="section-critics container">
         <div class="critic-on mt-100">
           <div class="card-critics">
             <img src="./assets/img/blog72x.jpg" alt="">
           </div>
-          <div class="card-critics back-black">
+          <div class="card-critics back-primary">
             <h4>meggie stewart</h4>
             <h1>new york times</h1>
             <i v-for="star in 5" class="fas fa-star"></i>
@@ -119,7 +119,7 @@
               Mmalesuada ullamcorper amet.
               Pretium pretium dignissim nisi
             </p>
-            <button class="b-black" type="button" name="button">read full article</button>
+            <button class="b-primary" type="button" name="button">read full article</button>
           </div>
         </div>
 
@@ -133,7 +133,7 @@
               Non arcu mauris tortor ultrices mollis tellus euismod fermentum.
               Habitant amet tincidunt id sapien accumsan sed.
             </p>
-            <button class="b-black" type="button" name="button">read full article</button>
+            <button class="b-primary" type="button" name="button">read full article</button>
           </div>
           <div class="card-critics back-image2">
             <h4>patrick monroe</h4>
@@ -144,7 +144,37 @@
               Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
               Nulla porttitor accumsan tincidunt.
             </p>
-            <button class="b-black" type="button" name="button">read full article</button>
+            <button class="b-primary" type="button" name="button">read full article</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- third main -->
+      <div class="third-main mt-90">
+        <div id="pao-chick">
+          <img src="./assets/img/page52x.jpg" alt="">
+          <h4>Kung pao chicken - $32</h4>
+        </div>
+        <h1 class="italic"><i>Latest news & promotions</i></h1>
+
+        <div class="container mt-100 news">
+          <div class="promotions" v-for="promotion in promotions">
+            <img :src="'./assets/img/blog' + promotion.number + '.jpg'" alt="">
+            <div class="info-hover">
+              <i class="fas fa-paperclip"></i>
+              <h2>{{ promotion.title }}</h2>
+              <div class="promotion-info">
+                <span>{{ promotion.categories }}</span>
+              </div>
+            </div>
+            <div class="info">
+              <h2>{{ promotion.title }}</h2>
+              <div class="promotion-info">
+                <span>By Admin</span>
+                <span>{{ promotion.date }}</span>
+                <span>Categories: {{ promotion.categories }}</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

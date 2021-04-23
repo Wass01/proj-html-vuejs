@@ -745,17 +745,17 @@ a {
   padding-top: 100px;
 }
 
-button.b-black {
+button.b-primary {
   padding: 10px 20px;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #030303;
+  background-color: #5c3d27;
   border: 1px solid #ffffff;
   font-family: "Work Sans";
   font-size: 14px;
 }
-button.b-black:hover {
-  color: #030303;
+button.b-primary:hover {
+  color: #5c3d27;
   background-color: #ffffff;
   cursor: pointer;
 }
@@ -764,13 +764,13 @@ button.b-white {
   padding: 10px 20px;
   text-transform: uppercase;
   background-color: #ffffff;
-  color: #030303;
+  color: #5c3d27;
   border: 1px solid #bcbcbc;
   font-family: "Work Sans";
   font-size: 14px;
 }
 button.b-white:hover {
-  border: 1px solid #030303;
+  border: 1px solid #5c3d27;
   cursor: pointer;
 }
 
@@ -787,7 +787,7 @@ h1 {
 }
 
 header {
-  background-color: black;
+  background-color: #5c3d27;
   height: 850px;
   position: relative;
   z-index: 0;
@@ -864,10 +864,12 @@ nav .navigation a:hover {
   font-size: 19px;
   width: 85%;
   line-height: 1.6;
+  color: #5c3d27;
 }
 .first-section .food-universal h1 {
   font-size: 70px;
   margin: 40px 0;
+  color: #5c3d27;
 }
 .first-section .food-universal img {
   margin-top: 2em;
@@ -911,22 +913,23 @@ nav .navigation a:hover {
   font-family: "Bebas Neue";
   letter-spacing: 2px;
   margin-top: 30px;
+  color: #5c3d27;
 }
 .type .listType div {
-  border-bottom: 1px solid #030303;
+  border-bottom: 1px solid #5c3d27;
   width: 25%;
   margin: 10% 37%;
 }
 .type .listType p {
   font-size: 17px;
-  color: #030303;
+  color: #5c3d27;
   line-height: 1.6;
   margin-bottom: 2em;
 }
 
 .second-main {
   height: 850px;
-  background-color: #030303;
+  background-color: #5c3d27;
   display: flex;
   align-items: center;
 }
@@ -968,12 +971,12 @@ nav .navigation a:hover {
   margin-left: 15px;
   margin-right: 15px;
 }
-.critic-on .back-black {
-  background-color: #030303;
+.critic-on .back-primary {
+  background-color: #5c3d27;
   padding: 10%;
   transition: transform 0.2s;
 }
-.critic-on .back-black:hover {
+.critic-on .back-primary:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
@@ -1040,14 +1043,105 @@ nav .navigation a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 .critic-under button:hover {
-  background-color: #030303;
+  background-color: #5c3d27;
   color: #ffffff;
+  border-color: #5c3d27;
 }
 
-h1#critics {
+h1.italic {
   font-family: "Lora";
   text-align: center;
   font-size: 46px;
   letter-spacing: 3px;
   margin-top: 100px;
+  color: #5c3d27;
+}
+
+.third-main #pao-chick {
+  position: relative;
+}
+.third-main #pao-chick img {
+  height: 450px;
+  width: 100%;
+}
+.third-main #pao-chick h4 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Work Sans";
+  position: absolute;
+  bottom: 30px;
+  left: 45%;
+}
+
+.news {
+  display: flex;
+}
+.news .promotions {
+  width: calc(100%/3);
+  height: 620px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  position: relative;
+}
+.news .promotions .info {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  background-color: #ffffff;
+  width: 100%;
+}
+.news .promotions .info h2 {
+  color: #5c3d27;
+  font-family: "Bebas Neue";
+  font-size: 31px;
+  margin-top: 25px;
+}
+.news .promotions .info span {
+  font-size: 12px;
+  color: #5c3d27;
+  font-family: "Lora";
+  padding: 0 5px;
+}
+.news .promotions .info span:nth-child(-n+2) {
+  border-right: 1px solid #5c3d27;
+}
+.news .promotions .info-hover {
+  display: none;
+}
+.news .promotions .info-hover h2 {
+  color: #ffffff;
+  font-family: "Bebas Neue";
+  font-size: 31px;
+  margin-top: 10px;
+}
+.news .promotions .info-hover span {
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "Lora";
+}
+.news .promotions:hover .info-hover {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+.news .promotions img {
+  width: 100%;
+  height: 620px;
+  transition: 0.5s ease;
+}
+.news .promotions:hover img {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.news .promotions i {
+  color: #ffffff;
+  font-size: 19px;
 }

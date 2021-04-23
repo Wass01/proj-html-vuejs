@@ -49,3 +49,24 @@ const typesSushi = [
     button: 'learn more about us',
   },
 ];
+
+const promotions = [
+  {
+    title: 'the best coffee in town',
+    date: 'January 7th, 2020',
+    categories: 'News',
+    number: '92x',
+  },
+  {
+    title: 'discover our menu',
+    date: 'January 7th, 2020',
+    categories: 'News',
+    number: '72x',
+  },
+  {
+    title: 'we now accept square!',
+    date: 'January 7th, 2020',
+    categories: 'News',
+    number: '82x',
+  }
+];

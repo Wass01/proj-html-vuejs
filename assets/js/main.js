@@ -3,6 +3,7 @@ let app = new Vue({
   data: {
     navbar: navbar,
     typesSushi: typesSushi,
+    promotions: promotions,
   },
 
   methods: {

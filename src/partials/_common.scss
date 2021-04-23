@@ -31,18 +31,18 @@ a{
 }
 // margin & padding
 
-button.b-black{
+button.b-primary{
   padding: 10px 20px;
   text-transform: uppercase;
   color: $white;
-  background-color: $black;
+  background-color: $primary;
   border: 1px solid $white;
   font-family: $family_worksans;
   font-size: $font_14;
   &:hover{
-    color: $black;
+    color: $primary;
     background-color: $white;
-    cursor: pointer;    
+    cursor: pointer;
   }
 }
 
@@ -50,12 +50,12 @@ button.b-white{
   padding: 10px 20px;
   text-transform: uppercase;
   background-color: $white;
-  color: $black;
+  color: $primary;
   border: 1px solid $silver;
   font-family: $family_worksans;
   font-size: $font_14;
   &:hover{
-    border: 1px solid $black;
+    border: 1px solid $primary;
     cursor: pointer;
   }
 }
