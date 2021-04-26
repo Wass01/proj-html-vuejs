@@ -60,14 +60,14 @@
   }
   .back-image1{
     padding: 10%;
-    background-image: url('../../assets/img/info52x.jpg'),;
+    background-image: linear-gradient(rgb(3, 3, 3) 25%, rgba(3, 3, 3, 0.2) 100%), url('../../assets/img/info52x.jpg'),;
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
   }
   .back-image2{
     padding: 10%;
-    background-image: url('../../assets/img/info12x.jpg');
+    background-image: linear-gradient(rgb(3, 3, 3) 25%, rgba(3, 3, 3, 0.2) 100%), url('../../assets/img/info12x.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
