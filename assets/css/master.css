@@ -1169,6 +1169,29 @@ header img.back-head {
   z-index: -1;
 }
 
+.shop-demos {
+  position: fixed;
+  right: 20px;
+  top: 200px;
+  z-index: 99;
+}
+.shop-demos > div {
+  box-shadow: 1px 1px 1px 1px #ccc;
+  background-color: #ffffff;
+  padding: 15px;
+  color: #6f7f8c;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+.shop-demos > div h6 {
+  font-size: 14px;
+}
+.shop-demos > div i {
+  font-size: 23px;
+  color: #6f7f8c;
+}
+
 .section-header {
   margin-top: 140px;
   width: 40%;
@@ -1601,7 +1624,7 @@ h1.italic {
   margin-top: 70px;
   padding: 5%;
   height: 780px;
-  background-image: url("../../assets/img/misc22x.jpg");
+  background-image: linear-gradient(#030303 25%, rgba(3, 3, 3, 0.2) 100%), url("../../assets/img/misc22x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
@@ -1682,4 +1705,15 @@ h1.italic {
 .copyright p {
   font-size: 12px;
   color: #bcbcbc;
+}
+
+.fa-chevron-up {
+  color: #ffffff;
+  background-color: #88978d;
+  font-size: 19px;
+  padding: 8px 15px;
+  position: fixed;
+  bottom: 0;
+  right: 100px;
+  z-index: 5;
 }

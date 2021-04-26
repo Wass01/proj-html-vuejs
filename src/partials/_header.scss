@@ -14,6 +14,29 @@ header{
   }
 }
 
+.shop-demos{
+  position: fixed;
+  right: 20px;
+  top: 200px;
+  z-index: 99;
+  & > div{
+    box-shadow: 1px 1px 1px 1px #ccc;
+    background-color: $white;
+    padding: 15px;
+    color: $slate;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 7px;
+    h6{
+      font-size: $font_14;
+    }
+    i{
+      font-size: 23px;
+      color: $slate;
+    }
+  }
+}
+
 .section-header{
   margin-top: 140px;
   width: 40%;

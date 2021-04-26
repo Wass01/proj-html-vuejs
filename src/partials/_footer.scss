@@ -34,5 +34,15 @@
     font-size: 12px;
     color: $silver;
   }
+}
 
+.fa-chevron-up{
+  color: $white;
+  background-color: $mantle;
+  font-size: $font_19;
+  padding: 8px 15px;
+  position: fixed;
+  bottom: 0;
+  right: 100px;
+  z-index: 5;
 }

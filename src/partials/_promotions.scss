@@ -41,7 +41,7 @@
     margin-top: 70px;
     padding: 5%;
     height: 780px;
-    background-image: url('../../assets/img/misc22x.jpg');
+    background-image: linear-gradient(rgb(3, 3, 3) 25%, rgba(3, 3, 3, 0.2) 100%), url('../../assets/img/misc22x.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: $white;
